@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <div className='flex flex-row justify-between px-4'>
         <div>
-            <NavLink><img src={Logo} className='h-16 w-24' /></NavLink>
+            <NavLink to="/"><img src={Logo} className='h-16 w-24 -my-8' /></NavLink>
         </div>
-        <div className='py-4 text-xl'>
+        <div className='py-4 text-xl -my-8'>
             <ul className='text-gray flex flex-row gap-8 '>
              <a href="#about"><li>About Us</li></a>
              <a href="#services"><li>Services</li></a>
